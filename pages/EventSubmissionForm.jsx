@@ -70,7 +70,7 @@ export default function EventSubmissionForm() {
                         <h2 className="text-2xl font-semibold text-gray-900 mb-2"> Submission Sent Successfully! </h2>
                         <p className="text-sm text-gray-600 mb-6 leading-relaxed"> Your submission has been sent for admin approval. You'll receive a notification once it's reviewed. </p>
                         <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-6">
-                            <p className="text-xs text-green-700 font-semibold">  ✓ Check your email for confimation. </p>
+                            <p className="text-xs text-green-700 font-semibold">  ✓ Check your email for confirmation. </p>
                         </div>
                         <p className="text-xs text-gray-500"> Redirecting to dashboard...</p>
                     </div>
@@ -121,4 +121,5 @@ export default function EventSubmissionForm() {
         </section>
     </div>
     )
+
 }
